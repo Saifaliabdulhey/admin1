@@ -240,36 +240,36 @@ function App() {
   const handleUpdate = (vin) => {
     setIsEdit(true);
     setTempUuid(vin.vin);
-    setTodo(todo.todo);
-    setVin(todo.vin);
-    setPrimary(todo.primary);
-    setSecondary(todo.secondary);
-    setOdometer(todo.odometer);
-    setStartCode(todo.startCode);
-    setKey(todo.key);
-    setFuelType(todo.fuelType);
-    setTransmission(todo.transmission);
-    setLocation(todo.location);
-    setColor(todo.color);
-    setLot(todo.lot);
-    setYear(todo.year);
-    setEngine(todo.engine);
-    setCylinders(todo.cylenders);
-    setImg1(todo.img1)
-    setImg2(todo.img2)
-    setImg3(todo.img3)
-    setImg4(todo.img4)
-    setImg5(todo.img5)
-    setImg6(todo.img6)
-    setImg7(todo.img7)
-    setImg8(todo.img8)
-    setImg9(todo.img9)
-    setImg10(todo.img10)
-    setImg11(todo.img11)
-    setImg12(todo.img12)
-    setImg13(todo.img13)
-    setImg14(todo.img14)
-    setImg15(todo.img15)
+    setTodo(vin.todo);
+    setVin(vin.vin);
+    setPrimary(vin.primary);
+    setSecondary(vin.secondary);
+    setOdometer(vin.odometer);
+    setStartCode(vin.startCode);
+    setKey(vin.key);
+    setFuelType(vin.fuelType);
+    setTransmission(vin.transmission);
+    setLocation(vin.location);
+    setColor(vin.color);
+    setLot(vin.lot);
+    setYear(vin.year);
+    setEngine(vin.engine);
+    setCylinders(vin.cylenders);
+    setImg1(vin.img1)
+    setImg2(vin.img2)
+    setImg3(vin.img3)
+    setImg4(vin.img4)
+    setImg5(vin.img5)
+    setImg6(vin.img6)
+    setImg7(vin.img7)
+    setImg8(vin.img8)
+    setImg9(vin.img9)
+    setImg10(vin.img10)
+    setImg11(vin.img11)
+    setImg12(vin.img12)
+    setImg13(vin.img13)
+    setImg14(vin.img14)
+    setImg15(vin.img15)
   };
 
   const handleSubmitChange = () => {

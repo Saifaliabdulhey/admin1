@@ -198,12 +198,11 @@ h3 {
 }
 
 .items_container {
-   height: 700px; 
+   max-height: auto; 
    display:flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   overflow-y: scroll;
    padding: 100px;
    width: 50%;
    margin: auto;
